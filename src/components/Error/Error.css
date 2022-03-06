@@ -1,0 +1,13 @@
+.error__container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
+.error__alert{
+    background: rgb(160, 22, 22);
+    color:white;
+    text-align: center;
+    padding:10px 30px;
+}

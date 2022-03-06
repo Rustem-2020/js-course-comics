@@ -1,0 +1,109 @@
+._comics__container_3353a{
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+._comics__item_3353a{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border:3px solid orangered;
+    
+    width:240px;
+    background-color:var(--color-light);
+    margin:var(--spacing-large);
+    transition:0.5s; 
+}
+._comics__item_3353a:hover{
+    transform:rotate(-1deg) scale(0.98);
+    cursor:pointer;   
+    filter:saturate(150%);
+    filter:invert(100%);
+}
+._comics__name_3353a{
+    display:flex;
+    margin: auto;
+    font-weight:bold;
+    padding: 10px var(--spacing-large);
+}
+._comics__img_3353a{
+    max-width:100%;
+}
+._wrapper_a3907{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(253, 66, 66, 0.555);
+    backdrop-filter:blur(3px);
+
+}
+._characters__container_a3907{
+    list-style:none;
+    position:fixed;
+    top:15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:800px;
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+    overflow:auto;
+    background: white;
+    border:4px solid rgb(13, 139, 87);
+    margin: 0 auto;
+}
+._characters__item_a3907{
+    border:1px solid rgb(163, 162, 162);
+    width:20%;
+    padding:20px;
+}
+._characters__img_a3907{
+  max-width:100%;
+  display:block;
+}
+._characters__name_a3907{
+
+}
+._characters__close_a3907{
+    
+}
+._error__container_e476d{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
+._error__alert_e476d{
+    background: rgb(160, 22, 22);
+    color:white;
+    text-align: center;
+    padding:10px 30px;
+}
+
+:root{
+    --color-dark:#222222;
+    --color-blue:rgb(33, 150, 218);
+    --color-light:#f8f8f8;
+    --spacing-large:20px;
+    
+}
+*, ::after, ::before {
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:var(--color-dark);
+    font-family:Arial, Helvetica, sans-serif;
+}
+*{
+    scrollbar-color:var(--color-blue) var(--color-dark);
+    scrollbar-width:thin;
+}
+
+
+/*# sourceMappingURL=/src.7ed060e2.css.map */

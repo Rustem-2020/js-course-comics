@@ -1,0 +1,20 @@
+:root{
+    --color-dark:#222222;
+    --color-blue:rgb(33, 150, 218);
+    --color-light:#f8f8f8;
+    --spacing-large:20px;
+    
+}
+*, ::after, ::before {
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:var(--color-dark);
+    font-family:Arial, Helvetica, sans-serif;
+}
+*{
+    scrollbar-color:var(--color-blue) var(--color-dark);
+    scrollbar-width:thin;
+}

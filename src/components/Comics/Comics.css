@@ -1,0 +1,31 @@
+.comics__container{
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+.comics__item{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border:3px solid orangered;
+    
+    width:240px;
+    background-color:var(--color-light);
+    margin:var(--spacing-large);
+    transition:0.5s; 
+}
+.comics__item:hover{
+    transform:rotate(-1deg) scale(0.98);
+    cursor:pointer;   
+    filter:saturate(150%);
+    filter:invert(100%);
+}
+.comics__name{
+    display:flex;
+    margin: auto;
+    font-weight:bold;
+    padding: 10px var(--spacing-large);
+}
+.comics__img{
+    max-width:100%;
+}
